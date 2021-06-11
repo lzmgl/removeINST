@@ -41,4 +41,7 @@ bash run.sh [youtube link]
 
 
 
-# Usage
+# References
+
+https://github.com/deezer/spleeter
+https://github.com/ytdl-org/youtube-dl
