@@ -13,3 +13,9 @@ sudo apt-get install ffmpeg
 ```
 pip install -r requirements.txt
 ```
+**[WARNING] Check your tensorflow and spleeter version.**
+
+
+# Preset
+
+* Modify the variable ``input_video_data_path`` in ``config.py`` to specify the path where the wavfile is located.
