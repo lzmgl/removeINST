@@ -1,15 +1,20 @@
-HI
-
-This program removes instrumental
-
+# OSS Lab(HGU, 2021-1)
+**Project name: Remove Instrumental**
+**Video Link: [Project presentation video](https://youtu.be/GYCX6G9wAZw)**
 # Install Dependencies
 
-(1) First, install python=3.7, [ffmpeg](https://ffmpeg.org/)
+(1) First, install python=3.7, 64-bit. chech this.
 ```
 # ffmpeg install
 sudo apt-get install ffmpeg
+# tensorflow install
+sudo apt-get install tensorflow
+# youtube_dl install
+sudo apt-get install youtube_dl
+# spleeter install
+sudo apt-get install spleeter
 ```
-(2) Second, install modules with pip
+If you use Raspberry Pi, you can't use some version. install modules with pip
 ```
 pip install -r requirements.txt
 ```
@@ -24,3 +29,8 @@ pip install -r requirements.txt
 ```
 bash run.sh [youtube link]
 ```
+**[WARNING] This is drivin by Raspberry Pi. So you can use this for 1 minute or less file.**
+
+
+
+# Usage
