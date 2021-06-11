@@ -22,7 +22,7 @@ sudo apt-get install youtube_dl
 # spleeter install
 sudo apt-get install spleeter
 ```
-If you use Raspberry Pi, you can't use some version. install modules with pip
+If you use Raspberry Pi, you can't use some version. install modules with requirements.txt
 ```
 pip install -r requirements.txt
 ```

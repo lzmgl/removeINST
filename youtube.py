@@ -5,16 +5,6 @@ import config as cfg
 
 def downfile(link):
     output_dir = os.path.join(cfg.input_video_data_path, 'audio.%(ext)s')
-    #output_dir = os.path.join('./', '%(playlist_title)s', '%(playlist_index)s. %(title)s.%(ext)s')
-
-    '''
-    ydl_opt = {
-    'outtmpl': output_dir,
-    'format': 'bestaudio/best',
-    'preferredcodec': 'wav',
-    'asr':44100
-    }
-    '''
     ydl_opt = {
     'outtmpl': output_dir,
     'format': 'bestaudio/best',
