@@ -2,7 +2,7 @@
 **Project name: Remove Instrumental**
 
 
-**Video Link: [Project presentation video](https://youtu.be/GYCX6G9wAZw)**
+**Video Link: [Project presentation video]()**
 # Install Dependencies
 
 (1) First, install python=3.7, 64-bit. chech this.
