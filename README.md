@@ -5,7 +5,7 @@
 **Video Link: [Project presentation video]()**
 # Install Dependencies
 
-(1) First, install python=3.7, 64-bit. chech this.
+(1) First, install python=3.7, 64-bit. check this.
 ```
 # ffmpeg install
 sudo apt-get install ffmpeg
@@ -39,9 +39,16 @@ bash run.sh [youtube link]
 ```
 **[WARNING] This is drivin by Raspberry Pi. So you can use this for 1 minute or less file.**
 
+If you want to try for example file, just
+```
+spleeter separate -p spleeter:2stems -i audio_example.wav -o ./
+```
+
+
 
 
 # References
 
 https://github.com/deezer/spleeter
+
 https://github.com/ytdl-org/youtube-dl
