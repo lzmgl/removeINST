@@ -9,10 +9,16 @@
 ```
 # ffmpeg install
 sudo apt-get install ffmpeg
+```
+```
 # tensorflow install
 sudo apt-get install tensorflow
+```
+```
 # youtube_dl install
 sudo apt-get install youtube_dl
+```
+```
 # spleeter install
 sudo apt-get install spleeter
 ```
