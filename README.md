@@ -19,3 +19,8 @@ pip install -r requirements.txt
 # Preset
 
 * Modify the variable ``input_video_data_path`` in ``config.py`` to specify the path where the wavfile is located.
+
+# Usage
+```
+bash run.sh [youtube link]
+```
