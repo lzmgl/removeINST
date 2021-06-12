@@ -35,10 +35,6 @@ sudo apt-get install ffmpeg
 pip install tensorflow
 ```
 ```
-# soundfile install
-pip install soundfile
-```
-```
 # youtube_dl install
 pip install youtube_dl
 ```
@@ -49,6 +45,11 @@ pip install spleeter
 If you use Raspberry Pi, you can't use some latest version. install these modules with requirements.txt
 ```
 pip install -r requirements.txt
+```
+Beacuase of computing resources, I only use 1 minute wav file. I use 1/4 file of origin wav file. So I split that.
+```
+# soundfile install
+pip install soundfile
 ```
 **[WARNING] Check your tensorflow and spleeter version.**
 
