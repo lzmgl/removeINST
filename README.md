@@ -28,8 +28,8 @@ sudo apt-get install ffmpeg
 pip install tensorflow
 ```
 ```
-# librosa install
-pip install tensorflow
+# soundfile install
+pip install soundfile
 ```
 ```
 # youtube_dl install
