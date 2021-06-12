@@ -5,4 +5,4 @@ import numpy as np
 data, samplerate = sf.read('audio.wav')
 quat = len(data)/4
 y = data[:round(quat)]
-sf.write('audio_cut.wav',y,samplerate)
+sf.write('audio.wav',y,samplerate)
