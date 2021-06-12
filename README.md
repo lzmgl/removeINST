@@ -1,5 +1,5 @@
 # OSS Lab(HGU, 2021-1)
-**Project name: Remove Instrumental**
+**Project name: Instrumental remover**
 
 
 **Video Link: [Project presentation video]()**
@@ -15,6 +15,13 @@ When you want to listen voice, just open vocals.wav. If you want listen to the i
 Since only the singer's voice is distinguished from the music source, it can be seen how much the singer's singing ability is.
 And even if you need an accompaniment to sing, it's useful.
 
+these days, there are many tools and programs about dealing with music. but They are too difficult for beginners to handle.
+
+I like to sing, but it was hard to go to karaoke because of the coronavirus, and even with the accompaniment of other karaoke versions on YouTube, it was different from the instrumental used by real singers.
+
+# Tools
+
+I developed this project using python and opensource ffmpeg, spleeter and youtube_dl.
 
 # Install Dependencies
 
@@ -39,7 +46,7 @@ pip install youtube_dl
 # spleeter install
 pip install spleeter
 ```
-If you use Raspberry Pi, you can't use some version. install modules with requirements.txt
+If you use Raspberry Pi, you can't use some latest version. install these modules with requirements.txt
 ```
 pip install -r requirements.txt
 ```
