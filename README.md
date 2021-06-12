@@ -54,14 +54,16 @@ pip install -r requirements.txt
 ```
 bash run.sh [youtube link]
 ```
-**[WARNING] This is drivin by Raspberry Pi. So you can use this for 1 minute or less file.**
+**[WARNING] This is drivin by Raspberry Pi. So you can use this for 4 minute or less file. This program cuts your video to 1/4 length**
 
 If you want to try for example file, just
 ```
 spleeter separate -p spleeter:2stems -i audio_example.wav -o ./
 ```
 
+# Get some help here
 
+you can send an email on lzmgl5874@gmail.com or give some comments on issues.
 
 
 # References
