@@ -11,7 +11,8 @@ def downfile(link):
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
         'preferredcodec': 'wav',
-    }, {'key': 'FFmpegMetadata'},], # 메타데이터도 함께 저장
+        'preferredquality': '192',
+    }, {'key': 'FFmpegMetadata'},],
     }
     download_list = []
     download_list.append(link)
@@ -19,7 +20,7 @@ def downfile(link):
     with youtube_dl.YoutubeDL(ydl_opt) as ydl:
         ydl.download(download_list)
 
-    print('다운로드 완료했습니다.')
+    print('Done.')
 
 if __name__ == "__main__":
 

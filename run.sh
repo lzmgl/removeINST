@@ -1,2 +1,3 @@
 python youtube.py $1
-spleeter separate -p spleeter:2stems -i audio.wav -o ./
+python wavsplit.py
+spleeter separate -p spleeter:2stems -i audio_cut.wav -o ./

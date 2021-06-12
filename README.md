@@ -3,6 +3,19 @@
 
 
 **Video Link: [Project presentation video]()**
+
+
+## What does this project do?
+
+**Instrumental remover** is an automatic tool that can listen to the singer's voice and the accompaniment separately.
+When you want to listen voice, just open vocals.wav. If you want listen to the instrumental, open accompaniment.wav.
+
+
+## Why is this project useful?
+Since only the singer's voice is distinguished from the music source, it can be seen how much the singer's singing ability is.
+And even if you need an accompaniment to sing, it's useful.
+
+
 # Install Dependencies
 
 (1) First, install python=3.7, 64-bit. check this.
@@ -12,15 +25,19 @@ sudo apt-get install ffmpeg
 ```
 ```
 # tensorflow install
-sudo apt-get install tensorflow
+pip install tensorflow
+```
+```
+# librosa install
+pip install tensorflow
 ```
 ```
 # youtube_dl install
-sudo apt-get install youtube_dl
+pip install youtube_dl
 ```
 ```
 # spleeter install
-sudo apt-get install spleeter
+pip install spleeter
 ```
 If you use Raspberry Pi, you can't use some version. install modules with requirements.txt
 ```
