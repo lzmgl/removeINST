@@ -2,7 +2,7 @@
 **Project name: Instrumental remover**
 
 
-**Video Link: [Project presentation video](https://www.youtube.com/watch?v=7qucnOnSHXE)**
+**Video Link: [Project presentation video](https://www.youtube.com/watch?v=pu6jcWHH_ho)**
 
 
 ## What does this project do?
