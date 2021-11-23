@@ -1,1 +1,1 @@
-input_video_data_path = '/home/pi/OSS/removeINST'
+input_video_data_path = '/home/jehyeon/hdd/opensource/removeINST'
