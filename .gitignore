@@ -1,2 +1,4 @@
 pretrained_models/
 audio_example/
+audil1/
+__pycache__/
