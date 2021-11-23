@@ -66,7 +66,10 @@ bash run.sh [youtube link]
 
 If you want to try for example file, just
 ```
-spleeter separate -p spleeter:2stems -i audio_example.wav -o ./
+
+~~spleeter separate -p spleeter:2stems -i audio_example.wav -o ./~~
+spleeter separate -p spleeter:2stems audio_example.wav -o ./
+
 ```
 
 # Get some help here
